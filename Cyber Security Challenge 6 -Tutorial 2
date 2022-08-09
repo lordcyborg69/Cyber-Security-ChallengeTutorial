@@ -1,0 +1,44 @@
+2.Cyber Security Challenge 6 -Tutorial 2 
+
+a.Location of the display filter in Wireshark. - https://unit42.paloaltonetworks.com/wp-content/uploads/2019/01/Figure1.png
+
+b.Wireshark’s display filter offering suggestions based on what you type. - https://unit42.paloaltonetworks.com/wp-content/uploads/2019/01/Figure2.png
+
+c.Wireshark’s display filter accepts an expression, and it works as intended. - https://unit42.paloaltonetworks.com/wp-content/uploads/2019/01/Figure3.png
+
+d.Example of Wireshark’s display filter accepting an expression, but it does not work as intended. - https://unit42.paloaltonetworks.com/wp-content/uploads/2019/01/Figure4.png
+
+e.*Filtering on web traffic using the previous tutorial’s pcap. - https://unit42.paloaltonetworks.com/wp-content/uploads/2019/01/Figure5.png
+
+f.Reviewing web traffic with Emotet and IcedID infection activity in Wireshark without filtering out SSDP traffic - https://unit42.paloaltonetworks.com/wp-content/uploads/2019/01/Figure6.png
+
+g.Reviewing web traffic with Emotet and IcedID infection activity in Wireshark while filtering out SSDP traffic. - https://unit42.paloaltonetworks.com/wp-content/uploads/2019/01/Figure7.png
+
+h.Including TCP SYN segments in your filter can reveal unsuccessful connection attempts by an infected host to other servers. - https://unit42.paloaltonetworks.com/wp-content/uploads/2019/01/Figure8.png
+
+i.ncluding DNS queries reveals attempted TCP connections to additional domains. - https://unit42.paloaltonetworks.com/wp-content/uploads/2019/01/Figure9.png
+
+j.Correlating DNS traffic to the TCP activity. - https://unit42.paloaltonetworks.com/wp-content/uploads/2019/01/Figure10.png
+
+k.*Activity from malware generating FTP traffic. - https://unit42.paloaltonetworks.com/wp-content/uploads/2019/01/Figure11.png
+
+l.Using ftp as a filter and finding the name of files retrieved by the infected host when viewing the FTP control channel over TCP port 21. - https://unit42.paloaltonetworks.com/wp-content/uploads/2019/01/Figure12.png
+
+
+m.The FTP control channel over TCP port 21 also shows information stored to the FTP server as a file named 6R7MELYD6. - https://unit42.paloaltonetworks.com/wp-content/uploads/2019/01/Figure13.png
+
+n.Wireshark filtered on spambot traffic to show DNS queries for various mail servers and TCP SYN packets to TCP ports 465 and 587 related to SMTP traffic. - https://unit42.paloaltonetworks.com/wp-content/uploads/2019/01/Figure14.png
+
+o.Filtering on SMTP traffic in Wireshark when viewing spambot traffic. - https://unit42.paloaltonetworks.com/wp-content/uploads/2019/01/Figure15.png
+
+p.Filtering in Wireshark to find email header lines for unencrypted SMTP traffic. - https://unit42.paloaltonetworks.com/wp-content/uploads/2019/01/Figure16.png
+
+q.TCP stream showing unencrypted SMTP traffic from a spambot-infected host. - https://unit42.paloaltonetworks.com/wp-content/uploads/2019/01/Figure17.png
+
+r.Saving a filter expression as a filter expression button in Wireshark. - https://unit42.paloaltonetworks.com/wp-content/uploads/2019/01/Figure18.png
+
+u.After typing a filter label, click the OK button. - https://unit42.paloaltonetworks.com/wp-content/uploads/2019/01/Figure19.png
+
+s.My “basic” filter button at the far right of the filter bar. - https://unit42.paloaltonetworks.com/wp-content/uploads/2019/01/Figure20.png
+
+t.Filter buttons I routinely use on Wireshark. - https://unit42.paloaltonetworks.com/wp-content/uploads/2019/01/Figure21.png

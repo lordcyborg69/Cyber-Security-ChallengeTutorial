@@ -1,0 +1,42 @@
+1. Cyber Security Challenge 6 - Tutorial 1 
+a.Viewing a pcap using Wireshark’s default column display. - https://unit42.paloaltonetworks.com/wp-content/uploads/2018/08/wireshark_1.png
+
+b.Before and after shots of the column header menu when hiding columns - https://unit42.paloaltonetworks.com/wp-content/uploads/2018/08/wireshark_2.png
+
+c.Before and after shots of the column header menu when removing columns. - https://unit42.paloaltonetworks.com/wp-content/uploads/2018/08/wireshark_3.png
+
+d.Getting to the Column Preferences menu by right-clicking on the column headers. - https://unit42.paloaltonetworks.com/wp-content/uploads/2018/08/wireshark_4.png
+
+e.Adding a new column in the Column Preferences menu. - https://unit42.paloaltonetworks.com/wp-content/uploads/2018/08/wireshark_5.png
+
+f.Changing the column title. - https://unit42.paloaltonetworks.com/wp-content/uploads/2018/08/wireshark_6.png
+
+g.Changing the column type. - https://unit42.paloaltonetworks.com/wp-content/uploads/2018/08/wireshark_7.png
+
+h.Changing the column position. - https://unit42.paloaltonetworks.com/wp-content/uploads/2018/08/wireshark_8.png
+
+i.Adding another column for Destination Port. - https://unit42.paloaltonetworks.com/wp-content/uploads/2018/08/wireshark_9.png
+
+j.Final setup in the Column Preferences window. - https://unit42.paloaltonetworks.com/wp-content/uploads/2018/08/wireshark_10.png
+
+k.Aligning column displays in Wireshark. - https://unit42.paloaltonetworks.com/wp-content/uploads/2018/08/wireshark_11.png
+
+l.Column display after adding and aligning the source and destination ports. -https://unit42.paloaltonetworks.com/wp-content/uploads/2018/08/wireshark_12.png
+
+m.Changing the time display format to UTC date and time - https://unit42.paloaltonetworks.com/wp-content/uploads/2018/08/wireshark_13.png
+
+n.*UTC date and time as seen in updated Wireshark column display.*
+
+Adding Custom Columns - https://unit42.paloaltonetworks.com/wp-content/uploads/2018/08/wireshark_14.png
+
+o.Applying the HTTP host name as a column. - https://unit42.paloaltonetworks.com/wp-content/uploads/2018/08/wireshark_15.png
+
+p.HTTP host names in the column display when filtering on http.request. - https://unit42.paloaltonetworks.com/wp-content/uploads/2018/08/wireshark_16.png
+
+q.Filtering on SSL handshake type and working our way down. - https://unit42.paloaltonetworks.com/wp-content/uploads/2018/08/wireshark_17.png
+
+r.Applying the HTTPS server name as a column. - https://unit42.paloaltonetworks.com/wp-content/uploads/2018/08/wireshark_18.png
+
+u.HTTP server names in the column display when filtering on ssl.handshake.type == 1. - https://unit42.paloaltonetworks.com/wp-content/uploads/2018/08/wireshark_19.png
+
+s.Filtering on http.request or ssl.handshake.type == 1 in the pcap for this tutorial. - ttps://unit42.paloaltonetworks.com/wp-content/uploads/2018/08/wireshark_20.png
